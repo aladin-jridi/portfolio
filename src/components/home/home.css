@@ -34,7 +34,7 @@
 }
 
 .home-container .logo .hover-show.active {
-  animation: showspin 8s linear 1s infinite;
+  animation: showspin 9s linear 1s infinite;
 }
 
 @keyframes showspin {
@@ -84,38 +84,45 @@
 .home-container .logo .hover-show.active .circle:nth-child(4) {
   position: absolute;
   transform: translateX(150%) translateY(150%);
-  background: url(../props/bootstrap.png);
+  background: url(../props/react.png);
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(5) {
   position: absolute;
   transform: translateY(210%);
-  background: url(../props/react.png);
+  background: url(../props/angular.png);
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(6) {
   position: absolute;
   transform: translateX(-150%) translateY(150%);
-  background: url(../props/angular.png);
+  background: url(../props/node.png);
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(7) {
   position: absolute;
   transform: translateX(-210%);
-  background: url(../props/node.png);
+  background: url(../props/mongodb.png);
   background-size: cover;
   background-position: center;
 }
 .home-container .logo .hover-show.active .circle:nth-child(8) {
   position: absolute;
   transform: translateX(-150%) translateY(-150%);
-  background: url(../props/c-sharp.png);
+  background: url(../props/MYSQL.jpg);
   background-size: cover;
   background-position: center;
 }
+/* .home-container .logo .hover-show.active .circle:nth-child(9) {
+  position: absolute;
+  transform: translateX(-210%);
+  background: url(../props/MYSQL.jpg);
+  background-size: cover;
+  background-position: center;
+} */
 
 .home-container img {
   position: absolute;

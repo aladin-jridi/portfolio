@@ -1,6 +1,5 @@
 import "./contact.css";
 import { AiOutlineLinkedin } from "react-icons/ai";
-import { AiOutlineWhatsApp } from "react-icons/ai";
 import { AiOutlineGithub } from "react-icons/ai";
 import { AiOutlineGoogle} from "react-icons/ai";
 
@@ -19,18 +18,6 @@ function Contact() {
           Linkedin  <span>aladin jridi</span>
           </h2>
         </a>
-
-        <a
-          href="#"
-          className="contact whatsapp"
-          target={"blank"}
-        >
-          <AiOutlineWhatsApp className="icon" />
-          <h2>
-            whatsapp <span>+216 50 915 806</span>
-          </h2>
-        </a>
-
         <a href="https://github.com/aladin-jridi" className="contact instagram">
           <AiOutlineGithub className="icon" />
           <h2>
